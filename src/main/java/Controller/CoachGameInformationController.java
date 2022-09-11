@@ -48,7 +48,7 @@ public class CoachGameInformationController {
         TeamDAO teamDAO = new TeamDAO();
         int tid = teamDAO.getTid(cid);
         gameDAO.newGame(t1Score, t2Score, tid);
-        System.out.println("heyyo");
+        System.out.println("heyyyyo");
         int gid = gameDAO.gameId(t1Score, t2Score, tid);
         System.out.println(gid + "printed gid");
         coachNewGameInformationView.setVisible(false);
