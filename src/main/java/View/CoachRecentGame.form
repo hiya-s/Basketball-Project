@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2nd Quarter"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField43">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField50">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField47">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField49">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField48">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField45">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField46">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField41">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField42">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField44">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="p1TotalLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="player 1"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="player10Label" pref="79" max="32767" attributes="0"/>
+                  <Component id="player9Label" max="32767" attributes="0"/>
+                  <Component id="player8Label" max="32767" attributes="0"/>
+                  <Component id="player7Label" max="32767" attributes="0"/>
+                  <Component id="player6Label" max="32767" attributes="0"/>
+                  <Component id="player5Label" max="32767" attributes="0"/>
+                  <Component id="player4Label" max="32767" attributes="0"/>
+                  <Component id="player3Label" max="32767" attributes="0"/>
+                  <Component id="player2Label" max="32767" attributes="0"/>
+                  <Component id="player1Label" max="32767" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="player7NumberTextField" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="p7FoulComboBox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="p7FirstTextField" min="-2" pref="54" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="player1NumberTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="player2NumberTextField" pref="26" max="32767" attributes="0"/>
+                          <Component id="player3NumberTextField" pref="26" max="32767" attributes="0"/>
+                          <Component id="player4NumberTextField" pref="26" max="32767" attributes="0"/>
+                          <Component id="player5NumberTextField" pref="26" max="32767" attributes="0"/>
+                          <Component id="player6NumberTextField" pref="26" max="32767" attributes="0"/>
+                          <Component id="player8NumberTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="player9NumberTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="player10NumberTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="p1FoulComboBox" min="-2" max="-2" attributes="0"/>
+                          <Component id="p2FoulComboBox" min="-2" max="-2" attributes="0"/>
+                          <Component id="p3FoulComboBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="p4FoulComboBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="p5FoulComboBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="p6FoulComboBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="p9FoulComboBox" min="-2" max="-2" attributes="0"/>
+                          <Component id="p8FoulComboBox" min="-2" max="-2" attributes="0"/>
+                          <Component id="p10FoulComboBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="p2FirstTextField" alignment="0" pref="54" max="32767" attributes="0"/>
+                              <Component id="p3FirstTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="p4FirstTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="p5FirstTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="p6FirstTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="p8FirstTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="p9FirstTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="p1FirstTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="p10FirstTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="p2SecondTextField" alignment="0" pref="54" max="32767" attributes="0"/>
+                      <Component id="p1SecondTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="p10SecondTextField" alignment="0" pref="54" max="32767" attributes="0"/>
+                      <Component id="p9SecondTextField" alignment="0" max="32767" attributes="0"/>
+                      <Component id="p8SecondTextField" alignment="0" max="32767" attributes="0"/>
+                      <Component id="p7SecondTextField" alignment="0" max="32767" attributes="0"/>
+                      <Component id="p6SecondTextField" alignment="0" max="32767" attributes="0"/>
+                      <Component id="p5SecondTextField" alignment="0" max="32767" attributes="0"/>
+                      <Component id="p4SecondTextField" alignment="0" max="32767" attributes="0"/>
+                      <Component id="p3SecondTextField" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="p7ThirdTextField" alignment="0" min="-2" pref="54" max="-2" attributes="0"/>
+                      <Component id="p3ThirdTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="p4ThirdTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="p5ThirdTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="p6ThirdTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="p8ThirdTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="p9ThirdTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="p1ThirdTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="p10ThirdTextField" alignment="0" min="-2" pref="54" max="-2" attributes="0"/>
+                      <Component id="p2ThirdTextField" alignment="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="p6ForthTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="p5ForthTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="p4ForthTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="p3ForthTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="p2ForthTextField" max="32767" attributes="0"/>
+                                  <Component id="p7ForthTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="p8ForthTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="p9ForthTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="p10ForthTextField" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="p1ForthTextField" min="-2" pref="53" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="p2TotalLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="p4TotalLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="p5TotalLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="p6TotalLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="p7TotalLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="p8TotalLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="p9TotalLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="p10TotalLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="p3TotalLabel" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="p1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="278" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="player1Label" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                                          <Component id="player1NumberTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="p1FoulComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="player2Label" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                                          <Component id="player2NumberTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="p2FoulComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="player3Label" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                                          <Component id="player3NumberTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="p3FoulComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="p3FirstTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="player4Label" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                                          <Component id="player4NumberTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="p4FoulComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="p4FirstTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="p4SecondTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="p2ForthTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="p2TotalLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="player5Label" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                                  <Component id="player5NumberTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p5FoulComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p5FirstTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p5SecondTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p5ForthTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p5TotalLabel" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                                  <Component id="p4ThirdTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="player6Label" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                                  <Component id="player6NumberTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p6FoulComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p6FirstTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p6SecondTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p6ThirdTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p6ForthTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p6TotalLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="player7Label" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                                      <Component id="player7NumberTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="p7FoulComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="p7FirstTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="p7SecondTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="p7ThirdTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="p7ForthTextField" alignment="3" min="-2" pref="18" max="-2" attributes="0"/>
+                                      <Component id="p7TotalLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="player8NumberTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p8FoulComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p8FirstTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p8SecondTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p8ThirdTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p8ForthTextField" alignment="3" min="-2" pref="18" max="-2" attributes="0"/>
+                                  <Component id="p8TotalLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="player8Label" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="player9Label" alignment="3" min="-2" pref="10" max="-2" attributes="0"/>
+                                  <Component id="player9NumberTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p9FoulComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p9FirstTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p9SecondTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p9ThirdTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p9ForthTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p9TotalLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="player10Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="player10NumberTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p10FoulComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p10FirstTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p10SecondTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p10ThirdTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p10ForthTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p10TotalLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="p1FirstTextField" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="p2SecondTextField" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="p2FirstTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="p2ThirdTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Component id="p1SecondTextField" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="p3SecondTextField" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                                  <Component id="p3ThirdTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p3ForthTextField" alignment="3" max="32767" attributes="0"/>
+                                  <Component id="p3TotalLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="p5ThirdTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p4ForthTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p4TotalLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="p1ThirdTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p1ForthTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="p1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="33" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="player1Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="player2Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="player3Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="player4Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="player5Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="player6Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player6"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="player7Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="player8Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="player9Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player9"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="player10Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="#"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="player1NumberTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="player2NumberTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="player2NumberTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="player3NumberTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="player3NumberTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="player4NumberTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="player5NumberTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="player6NumberTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="player8NumberTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="player7NumberTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="player9NumberTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="player10NumberTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fouls"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="p2FoulComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="0"/>
+            <StringItem index="1" value="1"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="3"/>
+            <StringItem index="4" value="4"/>
+            <StringItem index="5" value="5"/>
+            <StringItem index="6" value="6"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="p1FoulComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="0"/>
+            <StringItem index="1" value="1"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="3"/>
+            <StringItem index="4" value="4"/>
+            <StringItem index="5" value="5"/>
+            <StringItem index="6" value="6"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="p3FoulComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="0"/>
+            <StringItem index="1" value="1"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="3"/>
+            <StringItem index="4" value="4"/>
+            <StringItem index="5" value="5"/>
+            <StringItem index="6" value="6"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="p4FoulComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="0"/>
+            <StringItem index="1" value="1"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="3"/>
+            <StringItem index="4" value="4"/>
+            <StringItem index="5" value="5"/>
+            <StringItem index="6" value="6"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="p5FoulComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="0"/>
+            <StringItem index="1" value="1"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="3"/>
+            <StringItem index="4" value="4"/>
+            <StringItem index="5" value="5"/>
+            <StringItem index="6" value="6"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="p6FoulComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="0"/>
+            <StringItem index="1" value="1"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="3"/>
+            <StringItem index="4" value="4"/>
+            <StringItem index="5" value="5"/>
+            <StringItem index="6" value="6"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="p8FoulComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="0"/>
+            <StringItem index="1" value="1"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="3"/>
+            <StringItem index="4" value="4"/>
+            <StringItem index="5" value="5"/>
+            <StringItem index="6" value="6"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="p7FoulComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="0"/>
+            <StringItem index="1" value="1"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="3"/>
+            <StringItem index="4" value="4"/>
+            <StringItem index="5" value="5"/>
+            <StringItem index="6" value="6"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="p9FoulComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="0"/>
+            <StringItem index="1" value="1"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="3"/>
+            <StringItem index="4" value="4"/>
+            <StringItem index="5" value="5"/>
+            <StringItem index="6" value="6"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="p10FoulComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="0"/>
+            <StringItem index="1" value="1"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="3"/>
+            <StringItem index="4" value="4"/>
+            <StringItem index="5" value="5"/>
+            <StringItem index="6" value="6"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1st Quarter"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2nd Quarter"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p1FirstTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p2FirstTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="p2FirstTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p3FirstTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p4FirstTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p5FirstTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p6FirstTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p8FirstTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p7FirstTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p9FirstTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p10FirstTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="3rd Quarter"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p10ForthTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="4th Quarter"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p1ForthTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p2ForthTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p3ForthTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p4ForthTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p5ForthTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p6ForthTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p8ForthTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p7ForthTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p9ForthTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total Sum"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="p2TotalLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="player 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="p3TotalLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="player 3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="p4TotalLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="player 4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="p5TotalLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="player 5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="p6TotalLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="player 6"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="p10TotalLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="player 10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="p7TotalLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="player 7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="p8TotalLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="player 8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="p9TotalLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="player 9"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p1SecondTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p2SecondTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p3SecondTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p4SecondTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="p4SecondTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p5SecondTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p6SecondTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p8SecondTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p7SecondTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p9SecondTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p10SecondTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="p10SecondTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p1ThirdTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p2ThirdTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p3ThirdTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p4ThirdTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p5ThirdTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p6ThirdTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p8ThirdTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p7ThirdTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p9ThirdTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p10ThirdTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="p1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="player 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

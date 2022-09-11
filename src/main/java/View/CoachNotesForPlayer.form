@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="player3Label" min="-2" pref="79" max="-2" attributes="0"/>
+                                  <Component id="player2Label" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
+                                  <Component id="player5Label" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
+                                  <Component id="player4Label" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="47" pref="47" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="p7FirstTextField" alignment="0" pref="279" max="32767" attributes="0"/>
+                                  <Component id="p4FirstTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="p3FirstTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="p2FirstTextField" max="32767" attributes="0"/>
+                                  <Component id="p1FirstTextField" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="player10Label" alignment="0" pref="79" max="32767" attributes="0"/>
+                                  <Component id="player9Label" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="player8Label" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="player7Label" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="player6Label" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="47" pref="47" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="p10FirstTextField" alignment="0" pref="279" max="32767" attributes="0"/>
+                                  <Component id="p9FirstTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="p8FirstTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="p6FirstTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="p5FirstTextField" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                      <Component id="updateAll" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="198" max="32767" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="player1Label" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" pref="160" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+              <Component id="p1FirstTextField" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="p2FirstTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="player2Label" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="p3FirstTextField" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="player3Label" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="p4FirstTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="player4Label" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="p7FirstTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="player5Label" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="player6Label" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                  <Component id="p5FirstTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="player7Label" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                  <Component id="p6FirstTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="player8Label" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                  <Component id="p8FirstTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="p9FirstTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="player9Label" alignment="3" min="-2" pref="10" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="p10FirstTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="player10Label" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="updateAll" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Component id="player1Label" min="-2" pref="16" max="-2" attributes="0"/>
+                  <EmptySpace pref="363" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="player7Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="player8Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="player9Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player9"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="player10Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="updateAll">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Update All"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Notes to Player"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p1FirstTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p2FirstTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="p2FirstTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p3FirstTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p4FirstTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p5FirstTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p6FirstTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p8FirstTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p7FirstTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="player1Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="player2Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p9FirstTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="p10FirstTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="player3Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="player4Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="player5Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="player6Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player6"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
