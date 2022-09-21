@@ -27,7 +27,7 @@ public class NotesDAO {
     public boolean newNotes(String notes, int sid, int cid) {
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/basketball?useSSL=false&serverTimezone=CST", "root", "Hello@123");
+              connection = DriverManager.getConnection("jdbc:mysql://basketballa.cd1xsqsl0lfq.us-east-1.rds.amazonaws.com/basketball", "root", "root1234");
             if (connection.isClosed() != true) {
 
             }
@@ -58,7 +58,7 @@ public class NotesDAO {
     public String getNotes(int sid) {
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/basketball?useSSL=false&serverTimezone=CST", "root", "Hello@123");
+             connection = DriverManager.getConnection("jdbc:mysql://basketballa.cd1xsqsl0lfq.us-east-1.rds.amazonaws.com/basketball", "root", "root1234");
             if (connection.isClosed() != true) {
 
             }

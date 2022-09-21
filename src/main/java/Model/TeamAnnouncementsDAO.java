@@ -29,7 +29,8 @@ public class TeamAnnouncementsDAO {
     public int getTID(int cid) {
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/basketball?useSSL=false&serverTimezone=CST", "root", "Hello@123");
+              connection = DriverManager.getConnection("jdbc:mysql://basketballa.cd1xsqsl0lfq.us-east-1.rds.amazonaws.com/basketball", "root", "root1234");
+              
             if (connection.isClosed() != true) {
 
             }
@@ -60,7 +61,7 @@ public class TeamAnnouncementsDAO {
     public String coachTeam(int cid) {
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/basketball?useSSL=false&serverTimezone=CST", "root", "Hello@123");
+               connection = DriverManager.getConnection("jdbc:mysql://basketballa.cd1xsqsl0lfq.us-east-1.rds.amazonaws.com/basketball", "root", "root1234");
             if (connection.isClosed() != true) {
 
             }
@@ -99,7 +100,7 @@ public class TeamAnnouncementsDAO {
     public boolean newAnnouncement(int cid, int tid, String teamAnnouncements) {
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/basketball?useSSL=false&serverTimezone=CSTe", "root", "Hello@123");
+               connection = DriverManager.getConnection("jdbc:mysql://basketballa.cd1xsqsl0lfq.us-east-1.rds.amazonaws.com/basketball", "root", "root1234");
             if (connection.isClosed() != true) {
 
             }

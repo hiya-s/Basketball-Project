@@ -24,8 +24,8 @@ public class TeamStudentInfoDAO {
     public boolean isValid(int tid) {
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/basketball?useSSL=false&serverTimezone=CST", "root", "Hello@123");
-            if (connection.isClosed() != true) {
+               connection = DriverManager.getConnection("jdbc:mysql://basketballa.cd1xsqsl0lfq.us-east-1.rds.amazonaws.com/basketball", "root", "root1234");
+               if (connection.isClosed() != true) {
 
             }
 
@@ -59,8 +59,8 @@ public class TeamStudentInfoDAO {
     public boolean newStudentInTeam(int tid, int sid) {
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/basketball?useSSL=false&serverTimezone=CST", "root", "Hello@123");
-            if (connection.isClosed() != true) {
+               connection = DriverManager.getConnection("jdbc:mysql://basketballa.cd1xsqsl0lfq.us-east-1.rds.amazonaws.com/basketball", "root", "root1234");
+               if (connection.isClosed() != true) {
 
             }
 

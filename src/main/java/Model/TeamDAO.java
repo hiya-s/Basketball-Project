@@ -24,8 +24,8 @@ public class TeamDAO {
     public int teamCreatedId(String teamName, int tWin, int tLoss, String ageG) {
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/basketball?useSSL=false&serverTimezone=CST", "root", "Hello@123");
-            if (connection.isClosed() != true) {
+               connection = DriverManager.getConnection("jdbc:mysql://basketballa.cd1xsqsl0lfq.us-east-1.rds.amazonaws.com/basketball", "root", "root1234");
+               if (connection.isClosed() != true) {
                 System.out.println("SuccessinTeam");
             }
 
@@ -87,8 +87,8 @@ public class TeamDAO {
     public int teamWins(int tid) {
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/basketball?useSSL=false&serverTimezone=CST", "root", "Hello@123");
-            if (connection.isClosed() != true) {
+               connection = DriverManager.getConnection("jdbc:mysql://basketballa.cd1xsqsl0lfq.us-east-1.rds.amazonaws.com/basketball", "root", "root1234");
+               if (connection.isClosed() != true) {
 
             }
 
@@ -118,8 +118,8 @@ public class TeamDAO {
     public int teamLosses(int tid) {
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/basketball?useSSL=false&serverTimezone=CST", "root", "Hello@123");
-            if (connection.isClosed() != true) {
+               connection = DriverManager.getConnection("jdbc:mysql://basketballa.cd1xsqsl0lfq.us-east-1.rds.amazonaws.com/basketball", "root", "root1234");
+               if (connection.isClosed() != true) {
 
             }
 
@@ -149,8 +149,8 @@ public class TeamDAO {
     public int ageGroup(int tid) {
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/basketball?useSSL=false&serverTimezone=CST", "root", "Hello@123");
-            if (connection.isClosed() != true) {
+             connection = DriverManager.getConnection("jdbc:mysql://basketballa.cd1xsqsl0lfq.us-east-1.rds.amazonaws.com/basketball", "root", "root1234");
+             if (connection.isClosed() != true) {
                 System.out.println("Success1");
             }
 
@@ -180,8 +180,8 @@ public class TeamDAO {
     public int getTid(int cid) {
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/basketball?useSSL=false&serverTimezone=CST", "root", "Hello@123");
-            if (connection.isClosed() != true) {
+              connection = DriverManager.getConnection("jdbc:mysql://basketballa.cd1xsqsl0lfq.us-east-1.rds.amazonaws.com/basketball", "root", "root1234");
+              if (connection.isClosed() != true) {
                 System.out.println("SuccessinTeam");
             }
 
@@ -214,8 +214,8 @@ public class TeamDAO {
     public ArrayList<String> getPlayers(int tid) {
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/basketball?useSSL=false&serverTimezone=CST", "root", "Hello@123");
-            if (connection.isClosed() != true) {
+               connection = DriverManager.getConnection("jdbc:mysql://basketballa.cd1xsqsl0lfq.us-east-1.rds.amazonaws.com/basketball", "root", "root1234");
+               if (connection.isClosed() != true) {
                 System.out.println("SuccessinTeam");
             }
 
@@ -250,8 +250,8 @@ public class TeamDAO {
     public ArrayList<String> getCoaches(int tid) {
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/basketball?useSSL=false&serverTimezone=CST", "root", "Hello@123");
-            if (connection.isClosed() != true) {
+             connection = DriverManager.getConnection("jdbc:mysql://basketballa.cd1xsqsl0lfq.us-east-1.rds.amazonaws.com/basketball", "root", "root1234");
+             if (connection.isClosed() != true) {
                 System.out.println("SuccessinTeam");
             }
 
@@ -286,8 +286,8 @@ public class TeamDAO {
     public ArrayList<Integer> getPlayerSID(int tid) {
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/basketball?useSSL=false&serverTimezone=CST", "root", "Hello@123");
-            if (connection.isClosed() != true) {
+               connection = DriverManager.getConnection("jdbc:mysql://basketballa.cd1xsqsl0lfq.us-east-1.rds.amazonaws.com/basketball", "root", "root1234");
+               if (connection.isClosed() != true) {
                 System.out.println("SuccessinTeam");
             }
 
